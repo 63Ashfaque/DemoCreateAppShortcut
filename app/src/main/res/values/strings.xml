@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DemoCreateAppShortcut</string>
+
+    <string name="disabled_edit">Disable Edit</string>
+    <string name="shortcut_long_edit">Edit</string>
+    <string name="shortcut_short_edit">Edit</string>
+    <string name="shortcut_short_add">Add</string>
+    <string name="shortcut_long_add">Add</string>
+    <string name="disabled_add">Add</string>
+    <string name="disabled_delete">Delete</string>
+    <string name="shortcut_long_delete">Delete</string>
+    <string name="shortcut_short_delete">Delete</string>
+</resources>

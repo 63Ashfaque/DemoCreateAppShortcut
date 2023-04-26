@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="shortcutEdit"
+        android:enabled="true"
+        android:icon="@drawable/ic_edit"
+        android:shortcutShortLabel="@string/shortcut_short_edit"
+        android:shortcutLongLabel="@string/shortcut_long_edit"
+        android:shortcutDisabledMessage="@string/disabled_edit">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.democreateappshortcut"
+            android:targetClass="com.example.democreateappshortcut.EditActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="shortcutAdd"
+        android:enabled="true"
+        android:icon="@drawable/ic_add"
+        android:shortcutShortLabel="@string/shortcut_short_add"
+        android:shortcutLongLabel="@string/shortcut_long_add"
+        android:shortcutDisabledMessage="@string/disabled_add">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.democreateappshortcut"
+            android:targetClass="com.example.democreateappshortcut.AddActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="shortcutDelete"
+        android:enabled="true"
+        android:icon="@drawable/ic_delete"
+        android:shortcutShortLabel="@string/shortcut_short_delete"
+        android:shortcutLongLabel="@string/shortcut_long_delete"
+        android:shortcutDisabledMessage="@string/disabled_delete">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.democreateappshortcut"
+            android:targetClass="com.example.democreateappshortcut.DeleteActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+</shortcuts>
